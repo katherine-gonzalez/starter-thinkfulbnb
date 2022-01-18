@@ -34,6 +34,9 @@ main img {
   width: 100%;
 }
 
+
+
+
 /* ---  Groups & Items --- */
 
 .group {
@@ -54,11 +57,11 @@ main img {
   margin: 10px;
 }
 
-.task {
+/*.task {
   display:flex;
   flex-direction:row;
   justify-content:space-between;
-}
+}*/
 
 /* -------  Navigation ------- */
 
@@ -115,7 +118,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 100%;
 }
 
 form button {
@@ -153,6 +156,12 @@ footer p {
     padding: 20px 0px;
   }
 
+  form {
+  
+    padding:0px;
+    
+  }
+
   section,
   h1 {
     padding: 10px 10%;
@@ -163,17 +172,17 @@ footer p {
     align-items:center;
   }
 
-  .task {
+  /*.task {
     display:flex;
     flex-direction:column;
     padding: 0 10px;
-}
+  }*/
 
-.item {
-  display:flex;
-  flex: 1;
-  flex-direction:column;
-  margin: 10px;
-}
+  .item {
+    display:flex;
+    flex: 1;
+    flex-direction:column;
+    margin: 10px;
+  }
 }
 

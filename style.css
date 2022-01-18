@@ -86,21 +86,18 @@ header nav ul {
   padding: 20px 60px;
 }
 
-/*header nav ul li {
-  list-style: none;
-  
-}*/
-
 header nav ul li a {
   color: #fff;
   text-decoration: none;
-  margin: 0 20px 0 0;
+  margin: 0 15px 0 0;
 }
 
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
 }
+
+
 
 /* -------  Search Form ------- */
 form {
@@ -126,7 +123,7 @@ form button {
   background-color: #ff385c;
   border: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 1.25em;
   padding: 15px;
   width: 100%;
 }
@@ -149,10 +146,11 @@ footer p {
   header {
     display:flex;
     justify-content:space-between;
+    align-items: center;
   }
 
   .logo {
-    font-size:72px;
+    font-size:350%;
   }
 
   header nav ul {
@@ -161,11 +159,13 @@ footer p {
     padding: 20px 0px;
   }
 
+  header nav ul li:last-child a{
+    margin-right: 5px;
+  }
+
   form {
-  
-    padding:0px;
+    padding:.5vw;
     width:100%;
-    
   }
 
   section,
@@ -176,6 +176,7 @@ footer p {
   .group {
     flex-direction: row;
     align-items:center;
+    flex-wrap:wrap;
   }
 
   /*.task {
@@ -188,7 +189,7 @@ footer p {
     display:flex;
     flex: 1;
     flex-direction:column;
-    margin: 0px;
+    margin: 5p;
   }
 }
 
